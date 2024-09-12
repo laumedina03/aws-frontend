@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'; 
 
-const API_URL = 'http://ec2-34-201-62-126.compute-1.amazonaws.com:5000/data';
+const API_URL = 'http://ec2-34-225-25-41.compute-1.amazonaws.com:5000/data';
 
 function UsersList() {
     const [users, setUsers] = useState([]);

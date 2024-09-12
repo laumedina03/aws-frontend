@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://ec2-34-201-62-126.compute-1.amazonaws.com:5000/add-user'; // Update this URL to your endpoint
+const API_URL = 'http://ec2-34-225-25-41.compute-1.amazonaws.com:5000/add-user'; // Update this URL to your endpoint
 
 function UsersForm() {
     const [firstName, setFirstName] = useState('');
